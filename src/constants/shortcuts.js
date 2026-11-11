@@ -1,0 +1,31 @@
+export const SHORTCUTS = [
+  { group: 'General', items: [
+    { keys: ['⌘', 'K'], label: 'Search people' },
+    { keys: ['/'], label: 'Search people' },
+    { keys: ['⌘', 'Z'], label: 'Undo' },
+    { keys: ['⌘', '⇧', 'Z'], label: 'Redo' },
+    { keys: ['⌘', ','], label: 'Open settings' },
+    { keys: ['['], label: 'Toggle person panel' },
+    { keys: ['?'], label: 'Show keyboard shortcuts' },
+    { keys: ['Esc'], label: 'Close dialogs and menus' },
+  ] },
+  { group: 'Canvas', items: [
+    { keys: ['+'], label: 'Zoom in' },
+    { keys: ['−'], label: 'Zoom out' },
+    { keys: ['F'], label: 'Fit tree to screen' },
+    { keys: ['0'], label: 'Reset view to home person' },
+    { keys: ['.'], label: 'Center selected person' },
+    { keys: ['T'], label: 'Toggle tree settings' },
+  ] },
+  { group: 'People (keyboard navigation)', items: [
+    { keys: ['↑', '↓', '←', '→'], label: 'Move to the nearest card' },
+    { keys: ['H'], label: 'Go to home person' },
+    { keys: ['E'], label: 'Edit selected person' },
+    { keys: ['Enter'], label: 'Open profile' },
+    { keys: ['P'], label: 'Add parent' },
+    { keys: ['S'], label: 'Add sibling' },
+    { keys: ['M'], label: 'Add partner' },
+    { keys: ['C'], label: 'Add child' },
+    { keys: ['Del'], label: 'Delete selected person' },
+  ] },
+];

@@ -1,0 +1,6 @@
+node_modules
+dist
+.DS_Store
+
+# Your family data (written by json-server). Not committed so personal details stay private.
+server/db.json
